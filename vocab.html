@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary Lessons</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #00ccff, #ff66ff);
+      color: white;
+    }
+
+    .container {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      background-blend-mode: overlay;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      background-color: #3723e8;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    .filter-icon {
+      font-size: 2em;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vocabulary Lessons</h1>
+   
+    <button onclick="redirecttovoc1()">Common Greetings and farewell</button>
+    <button onclick="redirecttovoc2()">Weather and Seasons</button>
+    <button onclick="redirecttovoc3()">Physical & Personality</button>
+    <button onclick="redirecttovoc4()">Business & Finance Terms</button>
+    <button onclick="redirecttovoc5()">Idioms & Phrases</button>
+    </div>
+    <script>
+      function redirecttovoc1() {
+          window.location.href = 'voc1.html'; // Redirects to login.html
+      }
+      function redirecttovoc2() {
+          window.location.href = 'voc2.html'; // Redirects to login.html
+      }
+      function redirecttovoc3() {
+          window.location.href = 'voc3.html'; // Redirects to login.html
+      }
+      function redirecttovoc4() {
+          window.location.href = 'voc4.html'; // Redirects to login.html
+      }
+      function redirecttovoc5() {
+          window.location.href = 'voc5.html'; // Redirects to login.html
+      }
+    </script>
+</body>
+</html>

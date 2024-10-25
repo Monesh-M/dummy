@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive meta tag -->
+    <title>Forgot Password</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Full height */
+            display: flex; /* Enable flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background-image: url("bg1.jpg");
+            background-size: cover; /* Ensures the background image covers the entire viewport */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+
+        .container {
+            background-color: rgba(192, 78, 202, 0.85); /* White with opacity */
+            padding: 30px;
+            border-radius: 35px;
+            border: 2.5px solid black;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left; /* Align text to left */
+            width: 90%; /* Set to 90% for responsiveness */
+            max-width: 400px; /* Set a max-width to prevent it from becoming too wide */
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>FORGOT PASSWORD?</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your email..." required>
+            <label for="password">Set new password:</label>
+            <input type="password" id="password" name="password" placeholder="Your new password..." required>
+            <label for="password2">Re-enter password:</label>
+            <input type="password" id="password2" name="password2" placeholder="Re-enter your password..." required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
+    
